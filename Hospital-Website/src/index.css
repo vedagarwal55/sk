@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    button{
+        @apply border border-black rounded-xl px-5 py-1
+    }
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+    overflow-x: hidden; 
+    background-color: #e7e3de;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+}
+.section{
+    padding: 4rem 0 2rem;
+}
+.container {
+   padding-left: 1.5rem;
+   padding-right: 1.5rem;
+}
+/* loader */
+.spinner {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.383);
+  }

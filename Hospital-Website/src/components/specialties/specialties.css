@@ -1,0 +1,16 @@
+.box>img{
+    height: 80px;
+}
+.box{
+    padding: 50px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 0.2px 0.11px black;
+    
+}
+.heading{
+    text-align: center;
+}
+.box>img:hover{
+    background-color: aliceblue;
+}

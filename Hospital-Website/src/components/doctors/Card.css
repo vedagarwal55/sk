@@ -1,0 +1,103 @@
+.single-card {
+    display: inline-block;
+    box-shadow: 0 0 20px #2d00001d;
+    margin: 1rem;
+    /* font-size: 2rem; */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.main-content {
+    display: flex;
+    padding: 1.4rem;
+    gap: 1rem;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.name {
+    font-size: 0.8rem;
+}
+
+.desc {
+    font-size: 0.6rem;
+    font-weight: bold;
+    color: #777;
+    text-transform: uppercase;
+}
+
+.field {
+    padding: 0.2rem 0.4rem;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    font-size: 0.6rem;
+    font-weight: 600;
+    color: #777;
+    max-width: 600px;
+}
+
+.duration-amount {
+    display: flex;
+    gap: 2rem;
+}
+
+.data {
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.rupee-img {
+    margin: 0px 7px 0px 0px;
+}
+
+.exp {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.amount {
+    color: #000000;
+    font-size: 15px;
+}
+
+.btn {
+    display: flex;
+    gap: 1px;
+    /* justify-content: space-around; */
+}
+
+.btn>* {
+    cursor: pointer;
+    width: 100%;
+    font-size: 0.8rem;
+    padding: 0.6rem 1.2rem;
+    /* border: 1px solid #333; */
+}
+
+.btn-appointment {
+    background: #ff6a6a4a;
+    transition: all 0.3s;
+}
+
+.btn-appointment:hover {
+    background: #ff6a6a8a;
+}
+
+.btn-profile {
+    transition: all 0.3s;
+}
+
+.btn-profile:hover {
+    background: #bbb;
+}

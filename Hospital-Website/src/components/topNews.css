@@ -1,0 +1,52 @@
+.card-container{
+    width: 23rem;
+    border-radius: 1rem;
+    box-shadow: 0px 10px 8px #999;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    background-color: white;
+    height: fit-content;
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+
+}
+.card-title , .card-ds{
+    margin: 0.5rem 5%;
+    width: 90%;
+    font-family: "Montserrat",sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: 500;
+    color: #696868;
+    border: 1px solid #d3d4db;
+    border-radius: 6px;
+    padding: 15px 10px;
+}
+.card-btn{
+    text-align: center;
+    width: 90%;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    background-color: #2563eb;
+    color: white;   
+    text-decoration: none;
+    margin: 0.5rem;
+}
+.contact_info{
+    background-color: #e7e3de;
+    padding-top: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.contact_right{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.contact_left{
+    margin-left: 25px;
+}

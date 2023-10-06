@@ -1,0 +1,106 @@
+.carousel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 9.5rem;
+    width: 100vw;
+    height: 600px;
+  }
+.slide {
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 7px #666;
+    width: 100%;
+    height: 100%;
+  }
+.slide-hidden {
+    display: none;
+  }
+.arrow {
+    position: absolute;
+    filter: drop-shadow(0px 0px 5px #555);
+    width: 2rem;
+    height: 2rem;
+    color: white;  
+  }
+.arrow:hover {
+    cursor: pointer;
+  }
+.arrow-left {
+    left: 1rem;
+  }
+.arrow-right {
+    right: 2rem;
+  }
+.indicators {
+    display: flex;
+    position: absolute;
+    bottom: 1rem;
+  }
+.indicator {
+    background-color: white;
+    height: 1rem;
+    width: 0.5rem;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 5px #555;
+    margin: 0 0.2rem;
+    cursor: pointer;
+  }
+.indicator-inactive {
+    background-color: grey;
+  }
+
+
+.hospital-info{
+    margin-top: 3rem;
+    padding: 0 40px;
+  }
+.hospital-name{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+.hospital-contact-info{
+    display: flex;
+    align-items: center;
+  }
+  .icons{
+    display: flex;
+    margin-right: 48px;
+  }
+  .icons a{
+    margin-top: 10px;
+    margin-right: 25px;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    box-shadow: 0px 3px 16px #00000029;
+    border: 1px solid #f4d7d0;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .map_pin{
+     font-size: 30px;
+  }
+  .button_wrap .button{
+    background: rgb(237, 78, 78);
+    font: 500 20px/18px "Montserrat",sans-serif;
+    color: #fff;
+    padding: 13px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    margin-top: 12px;
+    width: auto;
+    border-radius: 5px;
+    min-width: 170px;
+    transition: all .2s;
+    border: 1px solid #f4d7d0;
+  }
